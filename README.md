@@ -12,7 +12,7 @@ variable region {}
 variable eks_cluster_name {}
 
 module "eks-cluster" {
-  source           = "github.com/darkn3rd/eks-basic"
+  source           = "github.com/mengesha1/eks-basic"
   region           = var.region
   eks_cluster_name = var.eks_cluster_name
 }
